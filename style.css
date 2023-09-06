@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full{
+    height: 900px;
+    background: #f3f1f1;
+    overflow: hidden;
+}
+.con h2{
+    text-align: center;
+    padding: 100px 0px 50px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 400;
+}
+.contact {
+    width: 80%;
+    margin-left: 10%;
+    height: 600px;
+    display: flex;
+    box-shadow: 0px 0px 10px  #adabab;
+}
+.let{
+    width: 35%;
+    background: #01d28e;
+    height: 600px;
+}
+.let h4{
+    font-size: 22px;    
+    padding: 55px 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left:15%; 
+    color: white;
+}
+.let p{
+    color: #f3f1f1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-left: 15%;
+}
+
+.info i{
+    color: #f3f1f1;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 15%;
+    margin-top: 5%;
+
+}
+.addresh{
+    margin-top: 5%;
+}
+.addresh p {
+	margin: -48px 0px 0px 111px;
+    font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+    font-weight: 600;
+}
+.info .addresh a{
+    text-decoration: none;
+    color: white;
+}
+
+.info .addresh span{
+    color: white;
+}
+.call{
+    margin-top: 4%;
+}
+.call p {
+    margin: -33px 0px 0px 111px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.info .call a{
+    text-decoration: none;
+    color: white;
+}
+.emaill {
+	margin-top: 9%;
+}
+.emaill p {
+    margin: -33px 0px 0px 111px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.info .emaill a{
+    text-decoration: none;
+    color: white;
+}
+.web {
+	margin-top: 9%;
+}
+
+.info .web a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 0px 0px 10px;
+}
+
+
+.form{
+    background: white;
+    height: 600px;
+    width: 75%;
+}
+.form h3 {
+	margin: 44px 0px 22px 45px;
+	font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+} 
+
+form input:focus{
+    outline: none;
+    border-bottom: 1px solid #01d28e;
+
+}
+
+textarea:focus{
+    outline: none;
+    border-bottom: 1px solid #01d28e;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+form {
+    margin-left: 45px;
+
+}
+
+form .name {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 43%;
+    padding: 10px 2px;
+    border-bottom:.1px solid #767676;
+    font-size: 15px;
+}
+.add {
+	transform: translate(325px,-60px);
+}
+form .email{
+    border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 43%;
+    padding: 10px 2px;
+    border-bottom:1px solid #767676;
+    font-size: 15px;
+}
+.sub {
+	margin-top: -44px;
+}
+form .subject{
+    border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 90%;
+    padding: 10px 2px;
+    border-bottom:1px solid #767676 ;
+    font-size: 15px;
+    
+}
+.Message{
+    margin-top: 5px;
+}
+textarea{
+    width: 90%;
+    border-top: none;
+	border-left: none;
+	border-right: none;
+    padding: 10px 2px;
+    border-bottom:1px solid #767676 ;
+    font-size: 15px;
+
+}
+.submit{
+    padding: 10px 20px;
+    background:#03d891;
+    border-radius: 5px;
+    border: 1px  solid  #03d891;
+    color: white;
+    margin-top: 3%;
+    cursor: pointer;
+
+
+}
